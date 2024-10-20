@@ -90,8 +90,9 @@ No resources.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_environment"></a> [environment](#output\_environment) | n/a |
-| <a name="output_labels"></a> [labels](#output\_labels) | n/a |
-| <a name="output_region"></a> [region](#output\_region) | n/a |
-| <a name="output_zone"></a> [zone](#output\_zone) | n/a |
+| <a name="output_env"></a> [env](#output\_env) | The short name for the environment for example prod, nonprod, sb |
+| <a name="output_environment"></a> [environment](#output\_environment) | The environment name for example production, non-production, sandbox |
+| <a name="output_labels"></a> [labels](#output\_labels) | A map of labels to apply to resources |
+| <a name="output_region"></a> [region](#output\_region) | The region where resources will be deployed |
+| <a name="output_zone"></a> [zone](#output\_zone) | The zone where resources will be deployed |
 <!-- END_TF_DOCS -->
